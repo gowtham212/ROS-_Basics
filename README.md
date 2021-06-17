@@ -1,6 +1,6 @@
 # ROS-_Basics
-basic 
-roscore
+Basic 
+run the roscore
 go to workspace then run example:`/catkin_ws$rosrun basic talker.py
 rosrun basic talker.py
 rosrun basic listener.py
