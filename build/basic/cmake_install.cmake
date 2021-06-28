@@ -46,6 +46,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic/action" TYPE FILE FILES "/home/bit/catkin_ws/src/basic/action/Fibonacci.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic/msg" TYPE FILE FILES
+    "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciAction.msg"
+    "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionGoal.msg"
+    "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionResult.msg"
+    "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionFeedback.msg"
+    "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciGoal.msg"
+    "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciResult.msg"
+    "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic/cmake" TYPE FILE FILES "/home/bit/catkin_ws/build/basic/catkin_generated/installspace/basic-msg-paths.cmake")
 endif()
 
