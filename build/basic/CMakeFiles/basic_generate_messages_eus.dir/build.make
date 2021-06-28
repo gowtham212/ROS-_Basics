@@ -62,6 +62,7 @@ basic/CMakeFiles/basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/ro
 basic/CMakeFiles/basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/msg/FibonacciResult.l
 basic/CMakeFiles/basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/msg/sensordata.l
 basic/CMakeFiles/basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/srv/addtwoint.l
+basic/CMakeFiles/basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/srv/ServiceExample.l
 basic/CMakeFiles/basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/manifest.l
 
 
@@ -130,8 +131,13 @@ basic/CMakeFiles/basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/ro
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp code from basic/addtwoint.srv"
 	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bit/catkin_ws/src/basic/srv/addtwoint.srv -Ibasic:/home/bit/catkin_ws/src/basic/msg -Ibasic:/home/bit/catkin_ws/devel/share/basic/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basic -o /home/bit/catkin_ws/devel/share/roseus/ros/basic/srv
 
+/home/bit/catkin_ws/devel/share/roseus/ros/basic/srv/ServiceExample.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/bit/catkin_ws/devel/share/roseus/ros/basic/srv/ServiceExample.l: /home/bit/catkin_ws/src/basic/srv/ServiceExample.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from basic/ServiceExample.srv"
+	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/bit/catkin_ws/src/basic/srv/ServiceExample.srv -Ibasic:/home/bit/catkin_ws/src/basic/msg -Ibasic:/home/bit/catkin_ws/devel/share/basic/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basic -o /home/bit/catkin_ws/devel/share/roseus/ros/basic/srv
+
 /home/bit/catkin_ws/devel/share/roseus/ros/basic/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp manifest code for basic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp manifest code for basic"
 	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/bit/catkin_ws/devel/share/roseus/ros/basic basic actionlib_msgs std_msgs
 
 basic_generate_messages_eus: basic/CMakeFiles/basic_generate_messages_eus
@@ -144,6 +150,7 @@ basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/ms
 basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/msg/FibonacciResult.l
 basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/msg/sensordata.l
 basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/srv/addtwoint.l
+basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/srv/ServiceExample.l
 basic_generate_messages_eus: /home/bit/catkin_ws/devel/share/roseus/ros/basic/manifest.l
 basic_generate_messages_eus: basic/CMakeFiles/basic_generate_messages_eus.dir/build.make
 

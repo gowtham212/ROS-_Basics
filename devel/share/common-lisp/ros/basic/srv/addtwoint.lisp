@@ -175,10 +175,10 @@
   "6a2e34150c00229791cc89ff309fff21")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<addtwoint-response>)))
   "Returns full string definition for message of type '<addtwoint-response>"
-  (cl:format cl:nil "int64 sum~%~%~%~%"))
+  (cl:format cl:nil "int64 sum~%~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'addtwoint-response)))
   "Returns full string definition for message of type 'addtwoint-response"
-  (cl:format cl:nil "int64 sum~%~%~%~%"))
+  (cl:format cl:nil "int64 sum~%~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <addtwoint-response>))
   (cl:+ 0
      8

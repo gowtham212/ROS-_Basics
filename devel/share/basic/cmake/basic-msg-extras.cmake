@@ -1,2 +1,2 @@
 set(basic_MESSAGE_FILES "/home/bit/catkin_ws/src/basic/msg/sensordata.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciAction.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionGoal.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionResult.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionFeedback.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciGoal.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciResult.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciFeedback.msg")
-set(basic_SERVICE_FILES "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv")
+set(basic_SERVICE_FILES "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv;/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv")

@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/bit/catkin_ws/src/basic/msg/sensordata.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciAction.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionGoal.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionResult.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionFeedback.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciGoal.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciResult.msg;/home/bit/catkin_ws/devel/share/basic/msg/FibonacciFeedback.msg"
-services_str = "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv"
+services_str = "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv;/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv"
 pkg_name = "basic"
 dependencies_str = "actionlib_msgs;std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

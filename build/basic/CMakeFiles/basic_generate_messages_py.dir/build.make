@@ -62,6 +62,7 @@ basic/CMakeFiles/basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/pytho
 basic/CMakeFiles/basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_FibonacciResult.py
 basic/CMakeFiles/basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_sensordata.py
 basic/CMakeFiles/basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_addtwoint.py
+basic/CMakeFiles/basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_ServiceExample.py
 basic/CMakeFiles/basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/__init__.py
 basic/CMakeFiles/basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/__init__.py
 
@@ -131,6 +132,11 @@ basic/CMakeFiles/basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/pytho
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV basic/addtwoint"
 	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/bit/catkin_ws/src/basic/srv/addtwoint.srv -Ibasic:/home/bit/catkin_ws/src/basic/msg -Ibasic:/home/bit/catkin_ws/devel/share/basic/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basic -o /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv
 
+/home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_ServiceExample.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_ServiceExample.py: /home/bit/catkin_ws/src/basic/srv/ServiceExample.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python code from SRV basic/ServiceExample"
+	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/bit/catkin_ws/src/basic/srv/ServiceExample.srv -Ibasic:/home/bit/catkin_ws/src/basic/msg -Ibasic:/home/bit/catkin_ws/devel/share/basic/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basic -o /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv
+
 /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/__init__.py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_FibonacciActionResult.py
 /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/__init__.py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_FibonacciAction.py
@@ -141,7 +147,8 @@ basic/CMakeFiles/basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/pytho
 /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/__init__.py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_FibonacciResult.py
 /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/__init__.py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_sensordata.py
 /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/__init__.py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_addtwoint.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python msg __init__.py for basic"
+/home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/__init__.py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_ServiceExample.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python msg __init__.py for basic"
 	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg --initpy
 
 /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
@@ -154,7 +161,8 @@ basic/CMakeFiles/basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/pytho
 /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/__init__.py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_FibonacciResult.py
 /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/__init__.py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_sensordata.py
 /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/__init__.py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_addtwoint.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python srv __init__.py for basic"
+/home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/__init__.py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_ServiceExample.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python srv __init__.py for basic"
 	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv --initpy
 
 basic_generate_messages_py: basic/CMakeFiles/basic_generate_messages_py
@@ -167,6 +175,7 @@ basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-package
 basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_FibonacciResult.py
 basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_sensordata.py
 basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_addtwoint.py
+basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_ServiceExample.py
 basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/__init__.py
 basic_generate_messages_py: /home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/__init__.py
 basic_generate_messages_py: basic/CMakeFiles/basic_generate_messages_py.dir/build.make

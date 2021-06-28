@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "/home/bit/catkin_ws/devel/share/common-lisp/ros/basic/msg/FibonacciResult.lisp"
   "/home/bit/catkin_ws/devel/share/common-lisp/ros/basic/msg/sensordata.lisp"
   "/home/bit/catkin_ws/devel/share/common-lisp/ros/basic/srv/addtwoint.lisp"
+  "/home/bit/catkin_ws/devel/share/common-lisp/ros/basic/srv/ServiceExample.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "basic: 8 messages, 1 services")
+message(STATUS "basic: 8 messages, 2 services")
 
 set(MSG_I_FLAGS "-Ibasic:/home/bit/catkin_ws/src/basic/msg;-Ibasic:/home/bit/catkin_ws/devel/share/basic/msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
@@ -40,6 +40,11 @@ add_custom_target(_basic_generate_messages_check_deps_${_filename}
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciFeedback.msg" NAME_WE)
 add_custom_target(_basic_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "basic" "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciFeedback.msg" ""
+)
+
+get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv" NAME_WE)
+add_custom_target(_basic_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "basic" "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv" ""
 )
 
 get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv" NAME_WE)
@@ -124,6 +129,12 @@ _generate_srv_cpp(basic
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/basic
 )
+_generate_srv_cpp(basic
+  "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/basic
+)
 
 ### Generating Module File
 _generate_module_cpp(basic
@@ -146,6 +157,8 @@ add_dependencies(basic_generate_messages_cpp _basic_generate_messages_check_deps
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionFeedback.msg" NAME_WE)
 add_dependencies(basic_generate_messages_cpp _basic_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciFeedback.msg" NAME_WE)
+add_dependencies(basic_generate_messages_cpp _basic_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv" NAME_WE)
 add_dependencies(basic_generate_messages_cpp _basic_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv" NAME_WE)
 add_dependencies(basic_generate_messages_cpp _basic_generate_messages_check_deps_${_filename})
@@ -221,6 +234,12 @@ _generate_srv_eus(basic
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/basic
 )
+_generate_srv_eus(basic
+  "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/basic
+)
 
 ### Generating Module File
 _generate_module_eus(basic
@@ -243,6 +262,8 @@ add_dependencies(basic_generate_messages_eus _basic_generate_messages_check_deps
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionFeedback.msg" NAME_WE)
 add_dependencies(basic_generate_messages_eus _basic_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciFeedback.msg" NAME_WE)
+add_dependencies(basic_generate_messages_eus _basic_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv" NAME_WE)
 add_dependencies(basic_generate_messages_eus _basic_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv" NAME_WE)
 add_dependencies(basic_generate_messages_eus _basic_generate_messages_check_deps_${_filename})
@@ -318,6 +339,12 @@ _generate_srv_lisp(basic
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/basic
 )
+_generate_srv_lisp(basic
+  "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/basic
+)
 
 ### Generating Module File
 _generate_module_lisp(basic
@@ -340,6 +367,8 @@ add_dependencies(basic_generate_messages_lisp _basic_generate_messages_check_dep
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionFeedback.msg" NAME_WE)
 add_dependencies(basic_generate_messages_lisp _basic_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciFeedback.msg" NAME_WE)
+add_dependencies(basic_generate_messages_lisp _basic_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv" NAME_WE)
 add_dependencies(basic_generate_messages_lisp _basic_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv" NAME_WE)
 add_dependencies(basic_generate_messages_lisp _basic_generate_messages_check_deps_${_filename})
@@ -415,6 +444,12 @@ _generate_srv_nodejs(basic
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/basic
 )
+_generate_srv_nodejs(basic
+  "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/basic
+)
 
 ### Generating Module File
 _generate_module_nodejs(basic
@@ -437,6 +472,8 @@ add_dependencies(basic_generate_messages_nodejs _basic_generate_messages_check_d
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionFeedback.msg" NAME_WE)
 add_dependencies(basic_generate_messages_nodejs _basic_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciFeedback.msg" NAME_WE)
+add_dependencies(basic_generate_messages_nodejs _basic_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv" NAME_WE)
 add_dependencies(basic_generate_messages_nodejs _basic_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv" NAME_WE)
 add_dependencies(basic_generate_messages_nodejs _basic_generate_messages_check_deps_${_filename})
@@ -512,6 +549,12 @@ _generate_srv_py(basic
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/basic
 )
+_generate_srv_py(basic
+  "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/basic
+)
 
 ### Generating Module File
 _generate_module_py(basic
@@ -534,6 +577,8 @@ add_dependencies(basic_generate_messages_py _basic_generate_messages_check_deps_
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciActionFeedback.msg" NAME_WE)
 add_dependencies(basic_generate_messages_py _basic_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/bit/catkin_ws/devel/share/basic/msg/FibonacciFeedback.msg" NAME_WE)
+add_dependencies(basic_generate_messages_py _basic_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv" NAME_WE)
 add_dependencies(basic_generate_messages_py _basic_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv" NAME_WE)
 add_dependencies(basic_generate_messages_py _basic_generate_messages_check_deps_${_filename})

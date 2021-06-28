@@ -148,6 +148,7 @@ struct Definition< ::basic::addtwointResponse_<ContainerAllocator> >
   {
     return "int64 sum\n"
 "\n"
+"\n"
 ;
   }
 

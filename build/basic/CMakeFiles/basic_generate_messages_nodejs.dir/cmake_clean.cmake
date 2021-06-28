@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "/home/bit/catkin_ws/devel/share/gennodejs/ros/basic/msg/FibonacciResult.js"
   "/home/bit/catkin_ws/devel/share/gennodejs/ros/basic/msg/sensordata.js"
   "/home/bit/catkin_ws/devel/share/gennodejs/ros/basic/srv/addtwoint.js"
+  "/home/bit/catkin_ws/devel/share/gennodejs/ros/basic/srv/ServiceExample.js"
 )
 
 # Per-language clean rules from dependency scanning.

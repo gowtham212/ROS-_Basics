@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "/home/bit/catkin_ws/devel/include/basic/FibonacciResult.h"
   "/home/bit/catkin_ws/devel/include/basic/sensordata.h"
   "/home/bit/catkin_ws/devel/include/basic/addtwoint.h"
+  "/home/bit/catkin_ws/devel/include/basic/ServiceExample.h"
 )
 
 # Per-language clean rules from dependency scanning.

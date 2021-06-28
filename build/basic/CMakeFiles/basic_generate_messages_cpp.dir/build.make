@@ -62,6 +62,7 @@ basic/CMakeFiles/basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/
 basic/CMakeFiles/basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/FibonacciResult.h
 basic/CMakeFiles/basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/sensordata.h
 basic/CMakeFiles/basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/addtwoint.h
+basic/CMakeFiles/basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/ServiceExample.h
 
 
 /home/bit/catkin_ws/devel/include/basic/FibonacciActionResult.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
@@ -139,6 +140,13 @@ basic/CMakeFiles/basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from basic/addtwoint.srv"
 	cd /home/bit/catkin_ws/src/basic && /home/bit/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/bit/catkin_ws/src/basic/srv/addtwoint.srv -Ibasic:/home/bit/catkin_ws/src/basic/msg -Ibasic:/home/bit/catkin_ws/devel/share/basic/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basic -o /home/bit/catkin_ws/devel/include/basic -e /opt/ros/melodic/share/gencpp/cmake/..
 
+/home/bit/catkin_ws/devel/include/basic/ServiceExample.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/bit/catkin_ws/devel/include/basic/ServiceExample.h: /home/bit/catkin_ws/src/basic/srv/ServiceExample.srv
+/home/bit/catkin_ws/devel/include/basic/ServiceExample.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/bit/catkin_ws/devel/include/basic/ServiceExample.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from basic/ServiceExample.srv"
+	cd /home/bit/catkin_ws/src/basic && /home/bit/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/bit/catkin_ws/src/basic/srv/ServiceExample.srv -Ibasic:/home/bit/catkin_ws/src/basic/msg -Ibasic:/home/bit/catkin_ws/devel/share/basic/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basic -o /home/bit/catkin_ws/devel/include/basic -e /opt/ros/melodic/share/gencpp/cmake/..
+
 basic_generate_messages_cpp: basic/CMakeFiles/basic_generate_messages_cpp
 basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/FibonacciActionResult.h
 basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/FibonacciAction.h
@@ -149,6 +157,7 @@ basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/FibonacciGo
 basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/FibonacciResult.h
 basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/sensordata.h
 basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/addtwoint.h
+basic_generate_messages_cpp: /home/bit/catkin_ws/devel/include/basic/ServiceExample.h
 basic_generate_messages_cpp: basic/CMakeFiles/basic_generate_messages_cpp.dir/build.make
 
 .PHONY : basic_generate_messages_cpp

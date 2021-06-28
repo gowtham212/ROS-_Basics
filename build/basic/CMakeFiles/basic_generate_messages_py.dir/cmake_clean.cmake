@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "/home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_FibonacciResult.py"
   "/home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/_sensordata.py"
   "/home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_addtwoint.py"
+  "/home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/_ServiceExample.py"
   "/home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/msg/__init__.py"
   "/home/bit/catkin_ws/devel/lib/python2.7/dist-packages/basic/srv/__init__.py"
 )

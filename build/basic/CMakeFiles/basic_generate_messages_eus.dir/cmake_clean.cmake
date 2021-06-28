@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "/home/bit/catkin_ws/devel/share/roseus/ros/basic/msg/FibonacciResult.l"
   "/home/bit/catkin_ws/devel/share/roseus/ros/basic/msg/sensordata.l"
   "/home/bit/catkin_ws/devel/share/roseus/ros/basic/srv/addtwoint.l"
+  "/home/bit/catkin_ws/devel/share/roseus/ros/basic/srv/ServiceExample.l"
   "/home/bit/catkin_ws/devel/share/roseus/ros/basic/manifest.l"
 )
 

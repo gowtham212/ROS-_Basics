@@ -17,68 +17,56 @@ const _getByteLength = _ros_msg_utils.getByteLength;
 
 //-----------------------------------------------------------
 
-class addtwointRequest {
+class ServiceExampleRequest {
   constructor(initObj={}) {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
-      this.a = null;
-      this.b = null;
+      this.onezero = null;
     }
     else {
-      if (initObj.hasOwnProperty('a')) {
-        this.a = initObj.a
+      if (initObj.hasOwnProperty('onezero')) {
+        this.onezero = initObj.onezero
       }
       else {
-        this.a = 0;
-      }
-      if (initObj.hasOwnProperty('b')) {
-        this.b = initObj.b
-      }
-      else {
-        this.b = 0;
+        this.onezero = 0;
       }
     }
   }
 
   static serialize(obj, buffer, bufferOffset) {
-    // Serializes a message object of type addtwointRequest
-    // Serialize message field [a]
-    bufferOffset = _serializer.int64(obj.a, buffer, bufferOffset);
-    // Serialize message field [b]
-    bufferOffset = _serializer.int64(obj.b, buffer, bufferOffset);
+    // Serializes a message object of type ServiceExampleRequest
+    // Serialize message field [onezero]
+    bufferOffset = _serializer.int32(obj.onezero, buffer, bufferOffset);
     return bufferOffset;
   }
 
   static deserialize(buffer, bufferOffset=[0]) {
-    //deserializes a message object of type addtwointRequest
+    //deserializes a message object of type ServiceExampleRequest
     let len;
-    let data = new addtwointRequest(null);
-    // Deserialize message field [a]
-    data.a = _deserializer.int64(buffer, bufferOffset);
-    // Deserialize message field [b]
-    data.b = _deserializer.int64(buffer, bufferOffset);
+    let data = new ServiceExampleRequest(null);
+    // Deserialize message field [onezero]
+    data.onezero = _deserializer.int32(buffer, bufferOffset);
     return data;
   }
 
   static getMessageSize(object) {
-    return 16;
+    return 4;
   }
 
   static datatype() {
     // Returns string type for a service object
-    return 'basic/addtwointRequest';
+    return 'basic/ServiceExampleRequest';
   }
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '36d09b846be0b371c5f190354dd3153e';
+    return '5bd5e0f9ac4159bea0d24a22a826c13c';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    int64 a 
-    int64 b
+    int32 onezero
     
     `;
   }
@@ -88,75 +76,70 @@ class addtwointRequest {
     if (typeof msg !== 'object' || msg === null) {
       msg = {};
     }
-    const resolved = new addtwointRequest(null);
-    if (msg.a !== undefined) {
-      resolved.a = msg.a;
+    const resolved = new ServiceExampleRequest(null);
+    if (msg.onezero !== undefined) {
+      resolved.onezero = msg.onezero;
     }
     else {
-      resolved.a = 0
-    }
-
-    if (msg.b !== undefined) {
-      resolved.b = msg.b;
-    }
-    else {
-      resolved.b = 0
+      resolved.onezero = 0
     }
 
     return resolved;
     }
 };
 
-class addtwointResponse {
+class ServiceExampleResponse {
   constructor(initObj={}) {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
-      this.sum = null;
+      this.turn = null;
     }
     else {
-      if (initObj.hasOwnProperty('sum')) {
-        this.sum = initObj.sum
+      if (initObj.hasOwnProperty('turn')) {
+        this.turn = initObj.turn
       }
       else {
-        this.sum = 0;
+        this.turn = '';
       }
     }
   }
 
   static serialize(obj, buffer, bufferOffset) {
-    // Serializes a message object of type addtwointResponse
-    // Serialize message field [sum]
-    bufferOffset = _serializer.int64(obj.sum, buffer, bufferOffset);
+    // Serializes a message object of type ServiceExampleResponse
+    // Serialize message field [turn]
+    bufferOffset = _serializer.string(obj.turn, buffer, bufferOffset);
     return bufferOffset;
   }
 
   static deserialize(buffer, bufferOffset=[0]) {
-    //deserializes a message object of type addtwointResponse
+    //deserializes a message object of type ServiceExampleResponse
     let len;
-    let data = new addtwointResponse(null);
-    // Deserialize message field [sum]
-    data.sum = _deserializer.int64(buffer, bufferOffset);
+    let data = new ServiceExampleResponse(null);
+    // Deserialize message field [turn]
+    data.turn = _deserializer.string(buffer, bufferOffset);
     return data;
   }
 
   static getMessageSize(object) {
-    return 8;
+    let length = 0;
+    length += object.turn.length;
+    return length + 4;
   }
 
   static datatype() {
     // Returns string type for a service object
-    return 'basic/addtwointResponse';
+    return 'basic/ServiceExampleResponse';
   }
 
   static md5sum() {
     //Returns md5sum for a message object
-    return 'b88405221c77b1878a3cbbfff53428d7';
+    return '318653ac5e682e6ac5a91ab3fcbcfd51';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    int64 sum
+    string turn
     
     
     
@@ -168,12 +151,12 @@ class addtwointResponse {
     if (typeof msg !== 'object' || msg === null) {
       msg = {};
     }
-    const resolved = new addtwointResponse(null);
-    if (msg.sum !== undefined) {
-      resolved.sum = msg.sum;
+    const resolved = new ServiceExampleResponse(null);
+    if (msg.turn !== undefined) {
+      resolved.turn = msg.turn;
     }
     else {
-      resolved.sum = 0
+      resolved.turn = ''
     }
 
     return resolved;
@@ -181,8 +164,8 @@ class addtwointResponse {
 };
 
 module.exports = {
-  Request: addtwointRequest,
-  Response: addtwointResponse,
-  md5sum() { return '6a2e34150c00229791cc89ff309fff21'; },
-  datatype() { return 'basic/addtwoint'; }
+  Request: ServiceExampleRequest,
+  Response: ServiceExampleResponse,
+  md5sum() { return 'b6541b31be965d2ea76445e10907a742'; },
+  datatype() { return 'basic/ServiceExample'; }
 };

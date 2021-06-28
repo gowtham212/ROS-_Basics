@@ -62,6 +62,7 @@ basic/CMakeFiles/basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/c
 basic/CMakeFiles/basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/msg/FibonacciResult.lisp
 basic/CMakeFiles/basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/msg/sensordata.lisp
 basic/CMakeFiles/basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/srv/addtwoint.lisp
+basic/CMakeFiles/basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/srv/ServiceExample.lisp
 
 
 /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/msg/FibonacciActionResult.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
@@ -129,6 +130,11 @@ basic/CMakeFiles/basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from basic/addtwoint.srv"
 	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/bit/catkin_ws/src/basic/srv/addtwoint.srv -Ibasic:/home/bit/catkin_ws/src/basic/msg -Ibasic:/home/bit/catkin_ws/devel/share/basic/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basic -o /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/srv
 
+/home/bit/catkin_ws/devel/share/common-lisp/ros/basic/srv/ServiceExample.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/bit/catkin_ws/devel/share/common-lisp/ros/basic/srv/ServiceExample.lisp: /home/bit/catkin_ws/src/basic/srv/ServiceExample.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Lisp code from basic/ServiceExample.srv"
+	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/bit/catkin_ws/src/basic/srv/ServiceExample.srv -Ibasic:/home/bit/catkin_ws/src/basic/msg -Ibasic:/home/bit/catkin_ws/devel/share/basic/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basic -o /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/srv
+
 basic_generate_messages_lisp: basic/CMakeFiles/basic_generate_messages_lisp
 basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/msg/FibonacciActionResult.lisp
 basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/msg/FibonacciAction.lisp
@@ -139,6 +145,7 @@ basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/ba
 basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/msg/FibonacciResult.lisp
 basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/msg/sensordata.lisp
 basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/srv/addtwoint.lisp
+basic_generate_messages_lisp: /home/bit/catkin_ws/devel/share/common-lisp/ros/basic/srv/ServiceExample.lisp
 basic_generate_messages_lisp: basic/CMakeFiles/basic_generate_messages_lisp.dir/build.make
 
 .PHONY : basic_generate_messages_lisp

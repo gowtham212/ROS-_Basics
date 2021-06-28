@@ -60,6 +60,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
    FILES
    addtwoint.srv
+   ServiceExample.srv
    
  )
 

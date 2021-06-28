@@ -62,6 +62,7 @@ basic/CMakeFiles/basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share
 basic/CMakeFiles/basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/msg/FibonacciResult.js
 basic/CMakeFiles/basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/msg/sensordata.js
 basic/CMakeFiles/basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/srv/addtwoint.js
+basic/CMakeFiles/basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/srv/ServiceExample.js
 
 
 /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/msg/FibonacciActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
@@ -129,6 +130,11 @@ basic/CMakeFiles/basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from basic/addtwoint.srv"
 	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bit/catkin_ws/src/basic/srv/addtwoint.srv -Ibasic:/home/bit/catkin_ws/src/basic/msg -Ibasic:/home/bit/catkin_ws/devel/share/basic/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basic -o /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/srv
 
+/home/bit/catkin_ws/devel/share/gennodejs/ros/basic/srv/ServiceExample.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/bit/catkin_ws/devel/share/gennodejs/ros/basic/srv/ServiceExample.js: /home/bit/catkin_ws/src/basic/srv/ServiceExample.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bit/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Javascript code from basic/ServiceExample.srv"
+	cd /home/bit/catkin_ws/build/basic && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bit/catkin_ws/src/basic/srv/ServiceExample.srv -Ibasic:/home/bit/catkin_ws/src/basic/msg -Ibasic:/home/bit/catkin_ws/devel/share/basic/msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basic -o /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/srv
+
 basic_generate_messages_nodejs: basic/CMakeFiles/basic_generate_messages_nodejs
 basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/msg/FibonacciActionResult.js
 basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/msg/FibonacciAction.js
@@ -139,6 +145,7 @@ basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/ba
 basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/msg/FibonacciResult.js
 basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/msg/sensordata.js
 basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/srv/addtwoint.js
+basic_generate_messages_nodejs: /home/bit/catkin_ws/devel/share/gennodejs/ros/basic/srv/ServiceExample.js
 basic_generate_messages_nodejs: basic/CMakeFiles/basic_generate_messages_nodejs.dir/build.make
 
 .PHONY : basic_generate_messages_nodejs

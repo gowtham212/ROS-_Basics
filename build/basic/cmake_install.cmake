@@ -42,7 +42,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic/srv" TYPE FILE FILES "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic/srv" TYPE FILE FILES
+    "/home/bit/catkin_ws/src/basic/srv/addtwoint.srv"
+    "/home/bit/catkin_ws/src/basic/srv/ServiceExample.srv"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
