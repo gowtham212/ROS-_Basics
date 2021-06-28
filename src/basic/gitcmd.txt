@@ -1,0 +1,11 @@
+git init
+git status
+git add .
+git commit -m "third committ"
+git branch -M main
+git remote add origin https://github.com/gowtham212/ROS-_Basics.git
+git push -u origin main
+git fetch origin 
+git merge origin main
+git rebase origin/main
+
